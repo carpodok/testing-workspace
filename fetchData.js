@@ -1,7 +1,7 @@
 function fetchData() {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve("fetched data");
+      resolve("updated fetched data");
     }, 100);
   });
 }
