@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "standard --fix"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,8 @@
   "description": "",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
   }
 }
