@@ -1,7 +1,7 @@
 function fetchData() {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve("updated fetched data again");
+      resolve("peanut butter");
     }, 100);
   });
 }
